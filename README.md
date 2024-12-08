@@ -40,6 +40,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.6 - 1.8
 ![image](https://github.com/user-attachments/assets/0629a89a-a032-4b7d-8006-7cb74d9bf2ec)
 ![image](https://github.com/user-attachments/assets/dd4be9e0-66f7-4c07-af39-47c09768f761)
+![image](https://github.com/user-attachments/assets/3a08b8c6-2c16-4dc0-85b0-42f1b4679121)
+
 
 ```sql
 CREATE USER 'sys_test'@'localhost' IDENTIFIED BY 'password';
@@ -55,4 +57,25 @@ SELECT user ();
 ```
 Название таблицы | Название первичного ключа
 customer         | customer_id
+```
+
+### Решение 2
+```
+Название таблицы | Название первичного ключа
+actor            | actor_id
+address          | address_id
+category         | category_id
+city             | city_id
+country          | country_id
+customer         | customer_id
+film             | film_id
+film_actor       | actor_id, film_id
+film_category    | film_id, category_id
+film_text        | film_id
+inventory        | inventory_id
+language         | language_id
+payment          | payment_id
+rental           | rental_id
+staff            | staff_id
+store            | store_id
 ```
