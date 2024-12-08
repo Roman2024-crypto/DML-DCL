@@ -41,7 +41,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 ![image](https://github.com/user-attachments/assets/0629a89a-a032-4b7d-8006-7cb74d9bf2ec)
 ![image](https://github.com/user-attachments/assets/dd4be9e0-66f7-4c07-af39-47c09768f761)
 
----
+```sql
 CREATE USER 'sys_test'@'localhost' IDENTIFIED BY 'password';
 SELECT User,Host FROM mysql.user;
 GRANT ALL PRIVILEGES ON db_name.* TO 'sys_test'@'localhost';
