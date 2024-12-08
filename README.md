@@ -33,6 +33,22 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.1 - 1.3
 ![image](https://github.com/user-attachments/assets/57181d09-922a-4c99-8fee-259ff36b7b3e)
 
+1.4 - 1.5
+![image](https://github.com/user-attachments/assets/fbcd918d-00d5-488e-8b0a-e27d6a04bc2e)
+![image](https://github.com/user-attachments/assets/1e86c5f1-0b2a-465e-9d27-6aae540a3517)
+
+1.6 - 1.8
+![image](https://github.com/user-attachments/assets/0629a89a-a032-4b7d-8006-7cb74d9bf2ec)
+![image](https://github.com/user-attachments/assets/dd4be9e0-66f7-4c07-af39-47c09768f761)
+
+---sql
+CREATE USER 'sys_test'@'localhost' IDENTIFIED BY 'password';
+SELECT User,Host FROM mysql.user;
+GRANT ALL PRIVILEGES ON db_name.* TO 'sys_test'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'sys_test'@'localhost';
+SHOW GRANTS FOR 'sys_test'@'localhost';
+SELECT user ();
+---
 
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
