@@ -30,6 +30,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ### Решение 1
 
+1.1 - 1.3
+![image](https://github.com/user-attachments/assets/57181d09-922a-4c99-8fee-259ff36b7b3e)
 
 
 ### Задание 2
