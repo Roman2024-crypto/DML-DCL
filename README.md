@@ -48,7 +48,7 @@ GRANT ALL PRIVILEGES ON db_name.* TO 'sys_test'@'localhost';
 GRANT ALL PRIVILEGES ON *.* TO 'sys_test'@'localhost';
 SHOW GRANTS FOR 'sys_test'@'localhost';
 SELECT user ();
----
+```
 
 ### Задание 2
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
